@@ -272,7 +272,7 @@ header.masthead h2 {
 }
 
 .portfolio-modal .portfolio-modal-dialog h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 @media (min-width: 768px) {
@@ -389,6 +389,13 @@ a:focus, a:hover, a:active {
   background: url(../img/2019/img_blog_tistory.png) no-repeat 0 -60px;
   width:103px;
 }
+.go-blog:after{
+  content: "\f245";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  position: absolute;
+  right: -55px;
+}
 .screen-out{
   overflow:hidden;
   position:absolute;
@@ -409,7 +416,38 @@ a:focus, a:hover, a:active {
 .nicescroll-cursors{
   width: 16px !important;
 }
-
+.scroll-downs {
+  position: relative;
+  top: -30px;
+  margin: auto;
+  width :34px;
+  height: 55px;
+}
+.scroll-downs:after{
+  content:"\f103";
+  font-family: "Font Awesome 5 Free";
+  position:absolute;
+  bottom:-20px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scrollIcon;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
 @keyframes blogIcon{
 
   0%{
@@ -422,4 +460,17 @@ a:focus, a:hover, a:active {
     top:5px;
   }
 
+}
+@keyframes scrollIcon{
+  0% { 
+    opacity: 0; 
+  }
+  10% { 
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+  100% { 
+    transform: translateY(15px); 
+    opacity: 0;
+  }
 }
