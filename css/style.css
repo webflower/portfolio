@@ -389,13 +389,6 @@ a:focus, a:hover, a:active {
   background: url(../img/2019/img_blog_tistory.png) no-repeat 0 -60px;
   width:103px;
 }
-.go-blog:after{
-  content: "\f245";
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  position: absolute;
-  right: -55px;
-}
 .screen-out{
   overflow:hidden;
   position:absolute;
@@ -422,12 +415,6 @@ a:focus, a:hover, a:active {
   margin: auto;
   width :34px;
   height: 55px;
-}
-.scroll-downs:after{
-  content:"\f103";
-  font-family: "Font Awesome 5 Free";
-  position:absolute;
-  bottom:-20px;
 }
 .mousey {
   width: 3px;
