@@ -306,6 +306,9 @@ header.masthead h2 {
   font-family: "Font Awesome 5 Free";
   padding-right:5px;
 }
+#about .about-dl dt{
+  color: #2c3e50;
+}
 #about .about-dl em{
   color: #164a7a;
   font-weight: 600;
