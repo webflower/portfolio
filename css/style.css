@@ -285,6 +285,20 @@ header.masthead h2 {
 #about .row{
   font-size:1.4em;
 }
+#about .about-dl dt:before{
+  content:"\f058";
+  font-family: "Font Awesome 5 Free";
+  padding-right:5px;
+}
+#about .about-dl em{
+  color: #164a7a;
+  font-weight: 600;
+  padding: 0 10px 0 0;
+  font-style: inherit;
+}
+#about .about-dl strong{
+  color:#000; 
+}
 .copyright {
   background-color: #1a252f;
 }
