@@ -577,6 +577,11 @@
       </script>
   <script>
     AOS.init();
+    $(".mousey").click(function(){
+      $("html,body").stop().animate({
+        scrollTop : $("#portfolio").offset().top - 50
+      }, 500)
+    })
   </script>
 </body>
 
